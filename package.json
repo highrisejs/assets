@@ -1,0 +1,35 @@
+{
+  "name": "highrisejs-assets",
+  "version": "0.0.0",
+  "description": "Asset management for highrisejs.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee --bare -o lib -c src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highrisejs/assets.git"
+  },
+  "keywords": [
+    "highrisejs-app",
+    "assets",
+    "client",
+    "coffee",
+    "less"
+  ],
+  "author": "Dominik Burgdörfer <db@domachine.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/highrisejs/assets/issues"
+  },
+  "homepage": "https://github.com/highrisejs/assets",
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
+  },
+  "dependencies": {
+    "browserify-middleware": "^5.0.2",
+    "express": "^4.12.3",
+    "less-middleware": "^2.0.1"
+  }
+}
